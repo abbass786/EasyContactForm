@@ -9,4 +9,13 @@ package com.easycontactformandroid;
  */
 public interface IContact {
 
+	public void setName();
+	
+	public void setEmail();
+	
+	public void setSubject();
+	
+	public void setMessage();
+	
+	public void send();
 }

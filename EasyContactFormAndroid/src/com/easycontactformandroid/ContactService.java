@@ -3,6 +3,9 @@ package com.easycontactformandroid;
 import android.app.IntentService;
 import android.content.Intent;
 
+
+//TODO : Add the service tag in AndroidManifest.xml
+
 public class ContactService extends IntentService{
 	public ContactService(String name) {
 		super(name);
